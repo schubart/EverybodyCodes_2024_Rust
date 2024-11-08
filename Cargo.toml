@@ -12,5 +12,7 @@ unsafe_code = "forbid"
 all = "warn"
 pedantic = "warn"
 nursery = "warn"
+
 must_use_candidate = { level = "allow", priority = 1 }
 cast_possible_wrap = { level = "allow", priority = 1 }
+missing_panics_doc = { level = "allow", priority = 1 }
